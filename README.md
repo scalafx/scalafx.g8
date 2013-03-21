@@ -11,7 +11,7 @@ You need following things to use this template
 
 * Giter8
 * SBT
-* Any Scala IDE
+* Any one of Scala IDE (Eclipse / Netbeans / Intellij IDEA)
 
 
 License
