@@ -15,7 +15,7 @@ You need following things to use this template
 
 Usage
 =====
-> $ g8 jugchennai/scalafx.g8
+     $ g8 jugchennai/scalafx.g8
 
 License
 =======
