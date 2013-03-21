@@ -11,8 +11,11 @@ You need following things to use this template
 
 * Giter8
 * SBT
-* Any Scala IDE
+* Any one of Scala IDE (Eclipse / Netbeans / Intellij IDEA)
 
+Usage
+=====
+> g8 git://github.com/jugchennai/scalafx.g8.git
 
 License
 =======
