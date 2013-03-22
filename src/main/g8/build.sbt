@@ -1,5 +1,4 @@
 
-
 name := "$name$"
 
 organization := "$organization$"
@@ -25,4 +24,4 @@ unmanagedJars in Compile += Attributed.blank(file(System.getenv("JAVA_HOME") + "
 
 // set the main class for the main 'run' task
 // change Compile to Test to set it for 'test:run'
-mainClass in (Compile, run) := Some("$package$.HelloScalaFx")
+mainClass in (Compile, run) := Some("$package$.HelloScalaFX")
