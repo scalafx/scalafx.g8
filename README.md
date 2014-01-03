@@ -15,12 +15,12 @@ You need following things to use this template
 
 Usage
 =====
-     $ g8 jugchennai/scalafx.g8
+     $ g8 scalafx/scalafx.g8
 
 License
 =======
 
-Copyright 2013 ScalaFX
+Copyright 2013-2014 ScalaFX
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at:
 
