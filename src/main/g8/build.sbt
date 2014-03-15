@@ -1,4 +1,3 @@
-
 name := "$name$"
 
 organization := "$organization$"
@@ -10,7 +9,7 @@ scalaVersion := "2.10.3"
 assemblySettings
 
 libraryDependencies ++= Seq(
-  "org.scalafx" %% "scalafx" % "1.0.0-M7",
+  "org.scalafx" %% "scalafx" % "1.0.0-R8",
   "org.scalatest" % "scalatest_2.10" % "2.0" % "test" //http://www.scalatest.org/download
 )
 
