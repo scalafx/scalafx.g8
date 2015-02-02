@@ -3,10 +3,10 @@ package $package$
 import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
+import scalafx.scene.effect._
 import scalafx.scene.layout.HBox
 import scalafx.scene.paint.Color._
-import scalafx.scene.effect._
-import scalafx.scene.paint.{ Stops, LinearGradient }
+import scalafx.scene.paint.{LinearGradient, Stops}
 import scalafx.scene.text.Text
 
 object HelloScalaFX extends JFXApp {
@@ -15,22 +15,22 @@ object HelloScalaFX extends JFXApp {
     width = 650
     height = 450
     scene = new Scene {
-      fill = BLACK
+      fill = Black
       content = new HBox {
-        content = Seq(new Text {
+        children = Seq(new Text {
           text = "Scala"
           style = "-fx-font-size: 100pt"
           fill = new LinearGradient(
             endX = 0,
-            stops = Stops(PALEGREEN, SEAGREEN))
+            stops = Stops(PaleGreen, SeaGreen))
         }, new Text {
           text = "FX"
           style = "-fx-font-size: 100pt"
           fill = new LinearGradient(
             endX = 0,
-            stops = Stops(CYAN, DODGERBLUE))
+            stops = Stops(Cyan, DodgerBlue))
           effect = new DropShadow {
-            color = DODGERBLUE
+            color = DodgerBlue
             radius = 25
             spread = 0.25
           }
