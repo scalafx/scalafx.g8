@@ -7,8 +7,8 @@ version := "$version$"
 scalaVersion := "2.11.5"
 
 libraryDependencies ++= Seq(
-  "org.scalafx"   %% "scalafx"        % "8.0.31-R7",
-  "org.scalatest" %% "scalatest_2.10" % "2.2.3"     % "test" //http://www.scalatest.org/download
+  "org.scalafx"   %% "scalafx"   % "8.0.31-R7",
+  "org.scalatest" %% "scalatest" % "2.2.3"     % "test" //http://www.scalatest.org/download
 )
 
 shellPrompt := { state => System.getProperty("user.name") + "> " }
