@@ -15,4 +15,4 @@ shellPrompt := { state => System.getProperty("user.name") + "> " }
 
 // set the main class for the main 'run' task
 // change Compile to Test to set it for 'test:run'
-mainClass in (Compile, run) := Some("$package$.HelloScalaFX")
+mainClass in (Compile, run) := Some("$package$.ScalaFXHelloWorld")
