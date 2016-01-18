@@ -1,7 +1,7 @@
 Giter8 ScalaFX Template 
 =======================
 
-[Giter8](https://github.com/n8han/giter8) [ScalaFx](http://code.google.com/p/scalafx/) template for creating scalaFx projects
+[Giter8](https://github.com/n8han/giter8) [ScalaFX](http://code.google.com/p/scalafx/) template for creating scalaFx projects
 
 The project you create using this template will have all preconfigured Scala and ScalaFX dependencies. 
 
