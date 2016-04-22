@@ -1,20 +1,9 @@
 package $package$
 
-import scalafx.application.JFXApp
-import scalafx.application.JFXApp.PrimaryStage
-import scalafx.geometry.Insets
-import scalafx.scene.Scene
-import scalafx.scene.effect.DropShadow
-import scalafx.scene.layout.HBox
-import scalafx.scene.paint.Color._
-import scalafx.scene.paint._
-import scalafx.scene.text.Text
-import scalafx.stage.StageStyle
-
 object ScalaFXHelloWorld extends JFXApp {
 
   stage = new PrimaryStage {
-    initStyle(StageStyle.UNIFIED)
+    //    initStyle(StageStyle.UNIFIED)
     title = "ScalaFX Hello World"
     scene = new Scene {
       fill = Color.rgb(38, 38, 38)
