@@ -1,7 +1,7 @@
 Giter8 ScalaFX Template 
 =======================
 
-[Giter8](https://github.com/n8han/giter8) [ScalaFX](http://code.google.com/p/scalafx/) template for creating scalaFx projects
+[Giter8](https://github.com/foundweekends/giter8) template for creating [ScalaFX](http://scalafx.org) projects.
 
 The project you create using this template will have all preconfigured Scala and ScalaFX dependencies. 
 
@@ -25,7 +25,7 @@ If you are using Eclipse you can generate project configuration from SBT using c
 License
 =======
 
-Copyright 2013-2015 ScalaFX
+Copyright 2013-2016 ScalaFX
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at:
 
