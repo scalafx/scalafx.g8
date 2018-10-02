@@ -1,6 +1,8 @@
 Giter8 ScalaFX Template 
 =======================
 
+[![Build Status](https://travis-ci.org/scalafx/scalafx.g8.svg?branch=master)](https://travis-ci.org/scalafx/scalafx.g8)
+
 [SBT][sbt]/[Giter8][giter8] template for creating [ScalaFX](http://scalafx.org) projects.
 
 The project you create using this template will have all preconfigured Scala and ScalaFX dependencies. 
