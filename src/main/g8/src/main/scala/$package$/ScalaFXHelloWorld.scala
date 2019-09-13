@@ -13,7 +13,7 @@ import scalafx.scene.text.Text
 object ScalaFXHelloWorld extends JFXApp {
 
   stage = new PrimaryStage {
-    //    initStyle(StageStyle.UNIFIED)
+    //    initStyle(StageStyle.Unified)
     title = "ScalaFX Hello World"
     scene = new Scene {
       fill = Color.rgb(38, 38, 38)
@@ -25,7 +25,7 @@ object ScalaFXHelloWorld extends JFXApp {
             style = "-fx-font: normal bold 100pt sans-serif"
             fill = new LinearGradient(
               endX = 0,
-              stops = Stops(Color.Red, Color.DarkRed))
+              stops = Stops(Red, DarkRed))
           },
           new Text {
             text = "FX"
