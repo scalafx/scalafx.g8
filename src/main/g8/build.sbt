@@ -8,7 +8,7 @@ scalaVersion := "2.13.0"
 
 libraryDependencies ++= Seq(
   "org.scalafx"   %% "scalafx"   % "12.0.2-R18",
-  "org.scalatest" %% "scalatest" % "3.0.5" % "test" //http://www.scalatest.org/download
+  "org.scalatest" %% "scalatest" % "3.0.8" % "test" //http://www.scalatest.org/download
 )
 
 // Determine OS version of JavaFX binaries
