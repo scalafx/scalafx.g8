@@ -11,12 +11,12 @@ Prerequisite
 ============
 You need following things to use this template
 
-* [SBT][sbt] (v.0.13.13 or newer) or [Giter8][giter8]
+* [SBT][sbt] (v.1.0 or newer) or [Giter8][giter8]
 * Any one of Scala IDE (Eclipse / Netbeans / Intellij )
 
 Usage
 =====
-If you have SBT v.0.13.13 or newer you can generate new project using command line command:
+If you have SBT v.1.0 or newer you can generate new project using command line command:
 
     $ sbt new scalafx/scalafx.g8
 
