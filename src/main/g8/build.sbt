@@ -30,6 +30,4 @@ fork := true
 
 // set the main class for the main 'run' task
 // change Compile to Test to set it for 'test:run'
-mainClass in (Compile, run) := Some("$package$.ScalaFXHelloWorld")
-
-shellPrompt := { _ => System.getProperty("user.name") + "> " }
+Compile / run / mainClass := Some("$package$.ScalaFXHelloWorld")
