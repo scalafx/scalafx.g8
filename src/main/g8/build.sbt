@@ -5,8 +5,8 @@ version      := "$version$"
 scalaVersion := "2.13.6"
 
 libraryDependencies ++= Seq(
-  "org.scalafx"   %% "scalafx"   % "16.0.0-R24",
-  "org.scalatest" %% "scalatest" % "3.2.9" % "test" //http://www.scalatest.org/download
+  "org.scalafx"   %% "scalafx"   % "16.0.0-R25",
+  "org.scalatest" %% "scalatest" % "3.2.10" % "test" //http://www.scalatest.org/download
 )
 libraryDependencies ++= javaFXModules
 

@@ -10,6 +10,7 @@ import scalafx.scene.paint._
 import scalafx.scene.text.Text
 
 object ScalaFXHelloWorld extends JFXApp3 {
+
   override def start(): Unit = {
     stage = new JFXApp3.PrimaryStage {
       //    initStyle(StageStyle.Unified)
