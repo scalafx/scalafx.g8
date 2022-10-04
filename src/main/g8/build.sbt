@@ -6,7 +6,7 @@ scalaVersion := "2.13.9"
 
 libraryDependencies ++= Seq(
   "org.scalafx"   %% "scalafx"   % "18.0.1-R28",
-  "org.scalatest" %% "scalatest" % "3.2.12" % "test"
+  "org.scalatest" %% "scalatest" % "3.2.14" % "test"
 )
 
 // Fork a new JVM for 'run' and 'test:run' to avoid JavaFX double initialization problems
