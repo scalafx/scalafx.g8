@@ -2,7 +2,7 @@ name         := "$name$"
 organization := "$organization$"
 version      := "$version$"
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.13.9"
 
 libraryDependencies ++= Seq(
   "org.scalafx"   %% "scalafx"   % "18.0.1-R28",
