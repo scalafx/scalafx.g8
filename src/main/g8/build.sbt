@@ -2,11 +2,11 @@ name         := "$name$"
 organization := "$organization$"
 version      := "$version$"
 
-scalaVersion := "2.13.10"
+scalaVersion := "2.13.12"
 
 libraryDependencies ++= Seq(
-  "org.scalafx"   %% "scalafx"   % "20.0.0-R31",
-  "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+  "org.scalafx"   %% "scalafx"   % "21.0.0-R32",
+  "org.scalatest" %% "scalatest" % "3.2.17" % "test"
 )
 
 // Fork a new JVM for 'run' and 'test:run' to avoid JavaFX double initialization problems
