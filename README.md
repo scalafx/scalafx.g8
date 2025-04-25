@@ -13,7 +13,7 @@ You need [SBT][sbt] (v.1.9 or newer) or [Giter8][giter8]
 
 Usage
 =====
-If you have SBT v.1.0 or newer you can generate new project using command line command:
+If you have SBT v.1.0 or newer, you can generate a new project using command line command:
 
     $ sbt new scalafx/scalafx.g8
 
